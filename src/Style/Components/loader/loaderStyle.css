@@ -1,0 +1,17 @@
+.preLoaderCountries {
+  background: #FFFF url('../../../images/FlagsSpiner.gif') no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+}
+
+.preLoaderWeather {
+  background: url('../../../images/WeatherSpinner.gif') no-repeat center center;
+  background-size: 100%;
+  height: 8vh;
+  width: 20vw;
+  position: fixed;
+  z-index: 100;
+}

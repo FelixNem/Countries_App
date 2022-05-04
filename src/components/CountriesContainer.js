@@ -1,6 +1,7 @@
 import React from 'react';
 import useFetch from '../hooks/useFetch';
 import CountriesItem from './CountriesItem';
+import LoaderComponent from './loader/LoaderComponent';
 
 import '../Style/Components/CountriesGrid.css';
 
@@ -9,7 +10,9 @@ const CountriesContainer = () => {
 
     return (
         <>
-            {  !loading &&
+            {  loading ?
+                <LoaderComponent />
+            :
             <>
                 <h2 className='title' >All Countries</h2>
                 <div className='GridContainer' >
@@ -21,6 +24,7 @@ const CountriesContainer = () => {
                 </div>
             </>
             }
+            <LoaderComponent />
         </>
     )
 }
