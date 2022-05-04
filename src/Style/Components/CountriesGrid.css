@@ -1,0 +1,11 @@
+.title {
+    margin: 15px;
+}
+
+.GridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

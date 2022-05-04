@@ -1,0 +1,27 @@
+
+.notFoundContainer {
+  display: flex;
+  min-height: 85vh;
+}
+
+.notFoundMessague {
+  align-self: center;
+}
+
+.messague {
+  margin-top: -15px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.notFoundImage {
+  margin-top: 45px;
+}
+
+.notFoundImage img {
+  width: 100%;
+}
+
+.boldText {
+  font-weight: bold;
+}

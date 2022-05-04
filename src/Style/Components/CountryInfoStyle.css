@@ -1,0 +1,53 @@
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.countryData {
+  width: 28%;
+  font-size: 1.3rem;
+  margin: 5px;
+  border: solid 3px #E8630A ;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoCountryTable {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.infoCountryTable tr td {
+  padding: 5px;
+}
+
+.tableData {
+  text-align: right;
+}
+
+.weatherBtn {
+  border: solid 1px #035397;
+  margin-bottom: 15px;
+}
+
+.weatherBtn:hover {
+  background-color: #035397;
+  color: #EFEFEF;
+  border: solid 1px gray;
+}
+
+.countryFlag{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.countryFlag img {
+  width: 100%;
+}

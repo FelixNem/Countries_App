@@ -1,0 +1,37 @@
+
+.wheaterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 45vh;
+  padding: 25px;
+}
+
+.wheaterHeader { 
+  text-align: center;
+  color: #332FD0;
+  margin-bottom: 15px;
+}
+
+.wheaterBody {
+  display: flex;
+  color: #9254C8;
+}
+
+.wheaterData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.wheaterIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.weatherDataValue {
+  color: black;
+}

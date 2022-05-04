@@ -1,0 +1,35 @@
+
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+  background-color: #2155CD;
+  color: #E8F9FD;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.linkItem {
+  margin-left: 15px;
+  color: #E8F9FD;
+  text-decoration: none;
+}
+
+.linkItem:hover {
+  color:#E8F9FD ;
+}
+
+.formContainer {
+  width: 33%;
+  padding-right: 25px;
+}
+
+.formContainer input:focus {
+  transform: scale(1.1);
+}
+

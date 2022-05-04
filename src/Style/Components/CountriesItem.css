@@ -1,0 +1,34 @@
+
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius:  6px;
+    position: relative;
+}
+
+.countryCard img {
+    width: 100%;
+}
+
+.card_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;      
+    border-radius: calc(var(--curve) * 1px);    
+    background-color: var(--surface-color);      
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+    background-color: #79dae894;
+}
+
+.countryCard:hover .card_overlay {
+    transform: translateY(0);
+}
